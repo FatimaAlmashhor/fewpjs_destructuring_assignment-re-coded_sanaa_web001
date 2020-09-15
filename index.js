@@ -46,18 +46,6 @@ const k_muppet = {
 
  const [r, o , y , g , b ,  , v] = colors ;
 
-expect(r).to.exist
-expect(r).to.equal("red")
-expect(o).to.exist
-expect(o).to.equal("orange")
-expect(y).to.exist
-expect(y).to.equal("yellow")
-expect(g).to.exist
-expect(g).to.equal("green")
-expect(b).to.exist
-expect(b).to.equal("blue")
-expect(v).to.exist
-expect(v).to.equal("violet")
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 
 // Objects
