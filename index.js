@@ -28,7 +28,19 @@ const k_muppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+ let [moo , neigh ,baa ,oink ,cluck ] = farmAnimals.split(' ');
 
+
+ expect(moo).to.exist
+ expect(moo).to.equal("cow")
+ expect(neigh).to.exist
+ expect(neigh).to.equal("horse")
+ expect(baa).to.exist
+ expect(baa).to.equal("sheep")
+ expect(oink).to.exist
+ expect(oink).to.equal("pig")
+ expect(cluck).to.exist
+ expect(cluck).to.equal("chicken")
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
