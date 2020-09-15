@@ -45,7 +45,7 @@ const k_muppet = {
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
  const [r, o , y , g , b ,  , v] = colors ;
- 
+
 expect(r).to.exist
 expect(r).to.equal("red")
 expect(o).to.exist
